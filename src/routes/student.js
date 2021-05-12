@@ -3,6 +3,6 @@ const StudentController = require('../controllers/student');
 
 const router = express.Router();
 
-router.get('/api/student', StudentController.dataStudents);
+router.get('student', StudentController.dataStudents);
 
 module.exports = router;
